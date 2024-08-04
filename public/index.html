@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Welcome to the Beauty Box New Romney</title>
+</head>
+<body class="bg-gray-100">
+  
+<div class="sm:container bg-white mx-auto">
+  <head>  
+    <nav>
+      <div class="flex justify-between items-center md:none">
+      <img  class=" w-24 md:w-48  md:mx-auto"src="./img/400dpiLogo.png" alt="Beauty Box logo">
+      <div class="px-4 cursor-pointer md:hidden" id="burger">
+        <svg  class="w-10" viewBox="0 0 20 20" fill="currentColor" class="menu w-6 h-6"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </div>
+      </div>
+      
+      <ul class = "p-2 md:justify-center bg-pink-300 text-white hidden w-full flex-grow md:flex md:items-center md:w-auto " id="menu">
+        <li class="mr-4 md:mr-8 text-lg"><a href="/public/index.html">Home</a></li>
+        <!-- <li class="mr-4 md:mr-8 text-lg"><a href="/public/hair.html">Hairstyling</a></li> -->
+        <li class="mr-4 md:mr-8 text-lg"><a href="#price">Price List</a></li>
+        <li class="mr-4 text-lg"><a href="#contact">Contact Us</a></li>
+      </ul>
+      
+    </nav>
+  </head>
+    <section>
+      <!-- <div class="sm:text-lg text-4xl bg-pink-100 text-center text-gray md:h-20 w-full">
+        <h1  id="top" class="text-sm md:text-2xl">We are Covid-19 Safe</h1> <p class="text-sm md:text-2xl">We are following government guidelines to keep our customers safe.</p>
+      </div> -->
+      <div class="w-full" >
+        <img  class="w-full h-64 object-cover" src="./img/main-cover.jpg" alt="Woman with red hair standing in front of the wall, facing the wall.">
+      </div>
+    </section>
+    <h1 class="text-center font-bold text-2xl"> Welcome to the Beauty Box in New Romney</h1>
+    <div class="m-2 grid">
+      <p class="m-2">Hi my name is Karen and I run the Beauty Box Hair and Beauty Salon in New Romney, I offer a variety of treatments from a simple haircut, waxing, acrylic nails to hair colouring all from the comfort of my home salon. I have been open for over 9 years in New Romney and have lots of satisfied clients.</p>
+        <p class="m-2">I offer all types of treatments and I'm always training to be able to offer more treatments.</p>
+        <h1 class="m-2 text-lg font-bold">Mobile Hairdressing</h1>
+        <p class="m-2">I also offer a mobile hairdressing service to anyone who is unable to come to the salon, please get in touch if you would like this service.</p>
+        <button class="bg-green-500 center-text hover:bg-green-700 hover:shadow-lg p-4  w-48 m-2 shadow-md rounded text-white ">
+         <a href="https://api.whatsapp.com/send?phone=447598566873"><i class="fab fa-whatsapp "></i> book me</a> 
+        </button>
+    </div>
+    <!-- 3 boxes below main main photo  -->
+    <section class="md:flex m-2">
+      <div class="box-2 flex-1 px-4 py-2 m-2">
+        <img class="shadow-md rounded border-2 border-pink-400 transition duration-500 ease-in-out hover:border-pink-500 transform scale-100  hover:rounded-lg hover:scale-105"src="./img/hair-box.jpg" alt="lady with pink hair looks sown whilst holding hair hair in her finger tips">
+        <h3 class="text-center text-2xl">Hair</h3>
+      </div>
+      <div class="box-1 flex-1 px-4 py-2 m-2">
+        <img  class="shadow-md rounded border-2 border-pink-400 transition duration-500 ease-in-out hover:border-pink-500 transform scale-100 hover:scale-105" src="./img/nails-box.jpg" alt="A single hand in focus show pink nails that have been manicured">
+        <h3 class="text-center text-2xl">Nails</h3>
+      </div>  
+      <div class="box-3 flex-1 px-4 py-2 m-2">
+        <img class="shadow-md rounded border-2 border-pink-400  transition duration-500 ease-in-out hover:border-pink-500 transform scale-100 hover:scale-105 " src="./img/beauty-box.jpg" alt="woman lying down on a massage table waiting for her treatment.">
+        <h3 class="text-center text-2xl">Beauty</h3>
+      </div>
+    </section>
+    
+    <div id="price" class=" bg-gray-400 m-2 p-4 price-list rounded-lg">
+      <h1 class="text-4xl text-center">Price List</h1>
+      <div class="lg:flex items-stretch">
+        <div class=" flex-1 rounded-lg hair bg-white p-4 m-2" >
+          <h2 class="text-2xl text-center bg-pink-300 shadow-md p-2 rounded">Hair</h2>
+          <ul class="none md:ml-64 lg:ml-0 mt-5 text-xl">
+            <!-- HAIRCUT PRICES -->
+            <li>Cut & Blow Dry: £25</li>
+            <li>Wet/Dry Cut: £18</li>
+            <li>Blow Dry or Set: £15</li>
+            <li>Gents/Children: £13</li>
+            <li>Full Head Colour:<span class="text-red-800 text-xl">*</span> £40</li>
+            <li>Re-Growth:<span class="text-red-800 text-xl">*</span> £35</li>
+            <li>Full Head Hi-Lights: £68</li>
+            <li>Half Head Hi-Lights: £48</li>
+            <li>T-Section: £38</li>
+            <li>Cap: £35</li>
+            <li>Perms: £49</li>
+            <li class="text-sm text-red-800 font-bold">* Patch test required 48hrs</li>
+          </ul>
+        
+        </div>
+        <div class=" flex-1 rounded-lg nails bg-white p-4 m-2" >
+          <h2 class="text-2xl text-center bg-pink-300 p-2 shadow-md rounded">Nails</h2>
+          <ul class="none mt-5 md:ml-64 lg:ml-0 text-xl">
+            <!-- NAIL PRICES -->
+            <li>Full Set Acrylic £25</li>
+            <li>In-Fills £20</li>
+            <li>Glitter / Design Work £28</li>
+            <li>SNS Set £20</li>
+            <li>Dip & Buff Set £20</li>
+            <li>Gel Polish £12</li>
+            <li>Soak Off £10</li>
+            <li>Gel Polish £3 extra on Sets </li>
+          </ul>
+        </div>
+        <div class=" flex-1  rounded-lg beauty bg-white p-4 m-2" >
+          <h2 class="text-2xl text-center bg-pink-300  shadow-md p-2 rounded" >Beauty</h2>
+          <ul class="none mt-5 md:ml-64 lg:ml-0 text-xl">
+            <!-- Beauty PRICES -->
+            <li> Waxing:</li>
+            <li>-Brow/lip/chin £8</li>
+            <li>-Undrearm/Bikini £10</li>
+            <li>-Whole Leg £20</li>
+            <li>-Half Leg £15</li>
+            <li></li>
+            <li>Manicure/Pedicure:</li>
+            <li>-Basic £6</li>
+            <li>-Soak,Scrub & Massage £15</li>
+            <li>-Delux £20</li>
+            <li>-Gel Polish £3 extra</li>
+            <li>Facials:</li>
+            <li>-Cleanse, tone, moisturise with scrub and massage £15</li>
+            <li>-As Above also with a luxury mask £20</li>
+            <li>Brow/Lash tinting* £6-£10</li>
+            <li>Hopi Ear Candle £20</li>
+            <li>Indian Head Massage £20</li>
+            <li>Make Up £20</li>
+            <li>Threading £6</li>
+            <li>Ear Piercing from £15</li>
+            <li>Cluster Lashes £8</li>
+            <li>Strip Lashes £8</li>
+            <li class="text-xs text-red-800 font-bold">*Patch test required 48 hrs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="contact"class="contact bg-pink-300 rounded-lg m-2 ">
+      <img  class=" w-24 md:w-48 mx-auto"src="./img/400dpiLogo.png" alt="Beauty Box logo">
+      <div  class="md:flex">
+        <div class="flex-1">
+          <h3 class="text-xl text-center">Opening times</h3>
+          <ul class="m-2 text-center">
+            <li>Monday:    9am - 5pm </li>
+            <li>Tuesday:   9am - 5pm </li>
+            <li>Wednesday: 9am - 5pm </li>
+            <li>Thursday:  9am - 5pm </li>
+            <li>Friday:    9am - 5pm </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <h2 class="text-xl text-center mb-4">Connect with us</h2>
+          <div class="social flex  justify-center">
+           <a href="https://www.facebook.com/TheBeautyBoxNewRomney/" target="_blank"> <i class="cursor-pointer fa fa-facebook-square text-4xl transition duration-500 ease-in-out hover:text-blue-500 text-gray-400 mr-4 "></i></a>
+           
+           <a href="https://www.instagram.com/the_beauty_box_new_romney/?hl=en" target="_blank" ><i class="cursor-pointer fa fa-instagram text-4xl text-gray-400 mr-4 transition duration-500 ease-in-out hover:text-blue-500"></i></a> 
+           <a href="mailto: karenrichards369@gmail.com" <i class="cursor-pointer far fa-envelope text-gray-400 text-4xl  transition duration-500 ease-in-out hover:text-blue-500"></i></a>
+          </div>
+
+            <div class="text-center mt-4">
+            <p>10 The Meadows</p> 
+            <p>New Romney</p> 
+            <p>Kent</p>
+            <p>TN28 8US</p>
+            <p><a href="tel:07598566873">07598 566873</a></p> 
+            </div>
+            
+        </div>
+        <div class="md:flex-1 max-w-xs md:mb-4 md:mr-4">
+          <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2511.643444516681!2d0.942237016305847!3d50.9857808565267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dee86d1d3f8e43%3A0xfc730b5f907c01c1!2sThe%20Beauty%20Box%20NR!5e0!3m2!1sen!2suk!4v1598878928990!5m2!1sen!2suk" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    
+      
+    </div>
+
+    <footer class="bg-gray-400 rounded-lg m-2 p-2">
+      <p class="text-center md:text-2xl">&copy; 2017 - 2024 The Beauty Box</p> 
+      <!-- <p class="hidden md:block md:text-right md:text-xs ">Built by the Coding Shed</p> -->
+    </footer>
+</div>
+
+  <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/91df46191e.js" crossorigin="anonymous"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
